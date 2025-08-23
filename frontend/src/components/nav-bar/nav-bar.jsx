@@ -3,6 +3,7 @@ function NavBar() {
   return (
     <>
       <div className="navbar-wrapper">
+        <div className="site-name"><a href="#">Singularity</a></div>
         <ul>
           <li>
             <a href="#">Home</a>
