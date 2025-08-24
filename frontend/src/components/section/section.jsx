@@ -1,4 +1,4 @@
-function Section({ id, title, text, buttonText, images }) {
+function Section({ id, title, text, buttonText, contentRight }) {
   return (
     <>
       <section className="section" id={id}>
@@ -8,7 +8,7 @@ function Section({ id, title, text, buttonText, images }) {
             <p>{text ?? "Put some text here"}</p>
             {buttonText && <button>{buttonText}</button>}
           </div>
-          {images && <div className="section-child" id="content-right">{images}</div>}
+          {contentRight && <div className="section-child" id="content-right">{contentRight}</div>}
         </div>
       </section>
     </>

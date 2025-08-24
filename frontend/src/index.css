@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins",sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,4 +16,8 @@
   padding: 0%;
 }
 
+h1{
+  font-family: " Roboto",sans-serif;
+  font-weight: 700;
+}
 
