@@ -14,7 +14,7 @@ function Home() {
         text={
           "Welcome to my personal website! Here, I share my projects, ideas, and creative works. This space is where I document my progress, showcase my artworks, and keep track of the journey I’m taking as I continue to learn and grow."
         }
-        images={[<img src="https://wallpapers.com/images/hd/apollo-belvedere-greek-statue-hlbd4e24ludtpu48.jpg"/>,<img src="https://wallpapers.com/images/hd/apollo-belvedere-greek-statue-hlbd4e24ludtpu48.jpg"/>,<img src="https://wallpapers.com/images/hd/apollo-belvedere-greek-statue-hlbd4e24ludtpu48.jpg"/>]}
+        images={[<img src="https://wallpapers.com/images/hd/apollo-belvedere-greek-statue-hlbd4e24ludtpu48.jpg"/>]}
         buttonText={"Show more "}
      />
     </>
