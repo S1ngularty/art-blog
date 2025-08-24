@@ -10,7 +10,7 @@
 
 }
 
-.navbar-wrapper .site-name a{
+.navbar-wrapper .site-name a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,9 @@
   font-weight: 400;
   padding: 8px 16px;
   border-radius: 5px;
-  transition:    color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
-.navbar-wrapper  a:hover {
-  color: #E0A75E;
+.navbar-wrapper a:hover {
+  color: #e0a75e;
 }
