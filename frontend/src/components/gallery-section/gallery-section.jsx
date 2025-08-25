@@ -5,7 +5,7 @@ function GallerySection({ id, title, text, buttonText, cardNum, images }) {
   function galleryCreate() {
     for (let i = 0; i < cardNum; i++) {
       let element = (
-        <div className="card-gallery">
+        <div key={i+1} className="card-gallery">
           <img src={images[i]} alt={`art-introduction-${i + 1}`} />
           <h3>Sample Art</h3>
         </div>
