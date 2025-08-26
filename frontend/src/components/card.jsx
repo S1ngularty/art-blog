@@ -1,4 +1,4 @@
-function Card() {
+function Card({img, text}) {
   return (
     <>
       <div className="art-card">
