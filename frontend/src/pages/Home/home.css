@@ -159,3 +159,38 @@
   text-indent: 1.5rem;
   line-height: 2;
 }
+
+/* section-3 */
+#section-3 .section-content .section-child{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-3 .section-content #content-right{
+  padding:20px 50px;
+  text-align: justify;
+  line-height: 2;
+  
+}
+
+#section-3 .section-content #content-left{
+  background-image: url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/tabitha-turner-lj7guVTi7GI-unsplash-1.jpg?fit=1568%2C992&quality=89&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+
+}
+
+#section-3 .section-content #content-left::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+
+}
+

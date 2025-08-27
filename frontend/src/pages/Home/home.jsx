@@ -39,8 +39,8 @@ function Home() {
             "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
           }
         ></Card>
-         <Card
-         cardName={"art-card"}
+        <Card
+          cardName={"art-card"}
           img={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdN2AYv2WHZ7YoMR7vOF56VfeQ3bqUU_-ug&s"
           }
@@ -48,8 +48,8 @@ function Home() {
             "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
           }
         ></Card>
-         <Card
-         cardName={"art-card"}
+        <Card
+          cardName={"art-card"}
           img={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6DpeaeikBJeA6KZbj4pWlXkynKc6sGZk6w&s"
           }
@@ -57,8 +57,8 @@ function Home() {
             "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
           }
         ></Card>
-         <Card
-         cardName={"art-card"}
+        <Card
+          cardName={"art-card"}
           img={
             "https://i.etsystatic.com/17358183/r/il/8d8af8/6668464072/il_570xN.6668464072_j9zy.jpg"
           }
@@ -66,6 +66,37 @@ function Home() {
             "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
           }
         ></Card>
+      </Section>
+      <div className="divider"></div>
+      <Section sectionId={"section-3"}>
+        <div className="section-child" id="content-left"></div>
+        <div className="section-child" id="content-right">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>
+      </Section>
+      <div className="divider"></div>
+
+      <Section sectionId={"section-3"}>
+        <div className="section-child" id="content-left"></div>
+        <div className="section-child" id="content-right">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>
       </Section>
     </>
   );
