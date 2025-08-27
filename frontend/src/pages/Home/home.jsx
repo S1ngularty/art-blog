@@ -1,5 +1,4 @@
 import { useState } from "react";
-import NavBar from "../../components/nav-bar/nav-bar";
 import Hero from "../../components/hero/hero";
 import Section from "../../components/section";
 import Card from "../../components/card";
@@ -7,7 +6,6 @@ import "./home.css";
 function Home() {
   return (
     <>
-      <NavBar />
       <Hero className={"home-hero"} />
       <Section sectionId={"section-1"}>
         <div className="section-child" id="content-left">

@@ -1,9 +1,3 @@
-.navbar-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
 .home-hero {
   height: 90vh;
   display: flex;

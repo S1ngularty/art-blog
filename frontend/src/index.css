@@ -1,5 +1,5 @@
 :root {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,13 +11,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
 
-h1{
-  font-family: " Roboto",sans-serif;
+h1 {
+  font-family: " Roboto", sans-serif;
   font-weight: 700;
 }
 
+.navbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+} 
