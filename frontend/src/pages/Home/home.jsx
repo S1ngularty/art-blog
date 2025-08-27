@@ -31,6 +31,7 @@ function Home() {
 
       <Section sectionId={"section-2"}>
         <Card
+          cardName={"art-card"}
           img={
             "https://images.unsplash.com/photo-1688589935456-191f352db55b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFuZHNjYXBlJTIwcGFpbnRpbmd8ZW58MHx8MHx8fDA%3D"
           }
@@ -39,6 +40,7 @@ function Home() {
           }
         ></Card>
          <Card
+         cardName={"art-card"}
           img={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdN2AYv2WHZ7YoMR7vOF56VfeQ3bqUU_-ug&s"
           }
@@ -47,6 +49,7 @@ function Home() {
           }
         ></Card>
          <Card
+         cardName={"art-card"}
           img={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6DpeaeikBJeA6KZbj4pWlXkynKc6sGZk6w&s"
           }
@@ -55,6 +58,7 @@ function Home() {
           }
         ></Card>
          <Card
+         cardName={"art-card"}
           img={
             "https://i.etsystatic.com/17358183/r/il/8d8af8/6668464072/il_570xN.6668464072_j9zy.jpg"
           }
