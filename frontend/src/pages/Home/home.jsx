@@ -82,18 +82,34 @@ function Home() {
       </Section>
       <div className="divider"></div>
 
-      <Section sectionId={"section-3"}>
-        <div className="section-child" id="content-left"></div>
-        <div className="section-child" id="content-right">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+      <Section sectionId={"section-4"}>
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit quisque
+          faucibus.
+        </h1>
+        <div className="text-child" id="content-under">
+          <Card
+            cardName={"text-card"}
+            icon={"fa-solid fa-paintbrush"}
+            text={
+              "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+            }
+          ></Card>
+          <Card
+            cardName={"text-card"}
+            icon={"fa-solid fa-paintbrush"}
+            text={
+              "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+            }
+          ></Card>
+          <Card
+            cardName={"text-card"}
+            icon={"fa-solid fa-paintbrush"}
+            text={
+              "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+            }
+          ></Card>
+         
         </div>
       </Section>
     </>
